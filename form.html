@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .image {
+        width: 200px;
+        border-radius: 15px;
+      }
+      .imageone {
+        width: 200px;
+        margin-left: 30px;
+        height: 200px;
+        object-position: center;
+      }
+      .image2 {
+        width: 50px;
+        border-radius: 100px;
+        height: 50px;
+        vertical-align: top;
+        /* object-fit: cover; */
+        object-position: center;
+        display: inline-block;
+      }
+      .input-lastname,
+      .input-firstname {
+        padding: 10px;
+        border-radius: 7px;
+      }
+      .input-email {
+        display: block;
+        margin-top: 10px;
+        padding: 10px;
+        padding-right: 210px;
+        border-radius: 7px;
+        margin-bottom: 10px;
+      }
+      .sign-up_btn {
+        display: block;
+        margin-bottom: 10px;
+        padding: 10px;
+        padding-right: 330px;
+        border-radius: 7px;
+        color: #fff;
+        background-color: blue;
+        border: none;
+      }
+      .div {
+        color: red;
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+      }
+      .green {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        border-radius: 50px;
+        margin-bottom: 20px;
+      }
+      .service {
+        margin-left: 20px;
+        border: solid #000 1px;
+        padding-left: 20px;
+        padding-top: 20px;
+        width: 300px;
+      }
+      .install {
+        margin-top: 20px;
+        background-color: #000;
+        color: #fff;
+        width: 400px;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        font-family: arial;
+      }
+      .install-one {
+        font-size: larger;
+        font-weight: bold;
+      }
+      .install-add {
+        color: rgb(199, 197, 197);
+        width: 380px;
+        line-height: 18px;
+      }
+      .tweeter {
+        font-family: Arial, Helvetica, sans-serif;
+        border: gray solid 1px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+        width: 500px;
+        border-radius: 10px;
+        box-shadow: #000;
+      }
+      .tweeter-btn {
+        display: inline-block;
+        color: #fff;
+        background-color: rgb(23, 171, 240);
+        border: none;
+        border-radius: 50px;
+        padding-top: 10px;
+        padding-left: 18px;
+        padding-bottom: 10px;
+        padding-right: 18px;
+        vertical-align: top;
+      }
+      .tweeter-p {
+        display: inline-block;
+        margin-right: 200px;
+        margin-left: 15px;
+        font-size: medium;
+        vertical-align: top;
+      }
+      .fb-one {
+        margin: 10px;
+        font-family: Arial;
+        border: solid 1px gray;
+        display: inline-block;
+        box-shadow: #000;
+        width: 200px;
+      }
+      .fb-img {
+        width: 200px;
+        height: 200px;
+      }
+      .fb-three {
+        margin-top: 10px;
+        font-size: large;
+        font-weight: bolder;
+        padding: 10px;
+      }
+      .fb-btn {
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #fff;
+        background-color: blue;
+        border: none;
+        border-radius: 3px;
+      }
+      .fb-p {
+        font-size: medium;
+        color: rgb(54, 53, 53);
+        margin-top: 5px;
+        /* vertical-align: top; */
+      }
+      .fb2-one {
+        margin: 10px;
+        font-family: Arial;
+        border: solid 1px gray;
+        display: inline-block;
+        box-shadow: #000;
+        width: 200px;
+      }
+      .fb2-img {
+        width: 200px;
+        height: 200px;
+      }
+      .fb2-three {
+        margin-top: 10px;
+        font-size: large;
+        font-weight: bolder;
+        padding: 10px;
+      }
+      .fb2-btn {
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #fff;
+        background-color: blue;
+        border: none;
+        border-radius: 3px;
+      }
+      .fb2-p {
+        font-size: medium;
+        color: rgb(54, 53, 53);
+        margin-top: 5px;
+        /* vertical-align: top; */
+      }
+      .fb3-one {
+        margin: 10px;
+        font-family: Arial;
+        border: solid 1px gray;
+        display: inline-block;
+        box-shadow: #000;
+        width: 200px;
+      }
+      .fb3-img {
+        width: 200px;
+        height: 200px;
+      }
+      .fb3-three {
+        margin-top: 10px;
+        font-size: large;
+        font-weight: bolder;
+        padding: 10px;
+      }
+      .fb3-btn {
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #fff;
+        background-color: blue;
+        border: none;
+        border-radius: 3px;
+      }
+      .fb3-p {
+        font-size: medium;
+        color: rgb(54, 53, 53);
+        margin-top: 5px;
+        /* vertical-align: top; */
+      }
+      .anodafb-img {
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+        vertical-align: top;
+      }
+      .anodafb2-img {
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+        vertical-align: top;
+      }
+      .anodafb3-img {
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+        vertical-align: top;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="ght.php" method="post">
+      <input
+        type="text"
+        name="surname"
+        placeholder="your surname"
+        id=""
+      /><br /><br />
+      <input type="password" /><br />
+      <input type="radio" name="gender" value="male" />Male
+      <input type="radio" name="gender" value="female" />Female <br />
+      <!-- <input type="checkbox" name="" id="" /><br /> -->
+      <select name="state_origin" id="">
+        <option>Abia</option>
+        <option>anambra</option>
+        <option>ebonyi</option></select
+      ><br />
+      <input type="date" name="" id="" /><br />
+      <input type="time" name="" id="" /><br />
+      <textarea name="" id="" cols="30" rows="10"></textarea><br />
+      <button>submit</button><br />
+      <textarea name="s" id="" cols="30" rows="10"></textarea>
+    </form>
+    <input type="text" placeholder="firstname" class="input-firstname" />
+    <input type="text" placeholder="lastname" class="input-lastname" />
+    <input type="email" class="input-email" placeholder="email" />
+    <button class="sign-up_btn">sign up</button>
+    <img class="image" src="img/ep6.jpg" alt="" />
+    <img class="imageone" src="img/ep6.jpg" alt="" />
+    <div class="tweeter">
+      <img class="image2" src="img/ep6.jpg" alt="" />
+      <p class="tweeter-p">what's happening ?</p>
+      <button class="tweeter-btn">Tweet</button>
+    </div>
+    <div class="div"></div>
+    <div class="green"></div>
+    <div class="service">
+      <div class="">
+        satisfied with our service?
+        <p><button>yes</button> <button>no</button></p>
+      </div>
+    </div>
+    <div class="install">
+      <div class="install-one">Install YouTube Music</div>
+      <p class="install-add">
+        Add YouTube Music to your desktop for quick and easy access
+      </p>
+    </div>
+    <div class="fb-one">
+      <div class="fb-two">
+        <img class="fb-img" src="img/coder girl.jpg" alt="" />
+      </div>
+      <div class="fb-three">
+        Oliver
+        <p class="fb-p">
+          <img class="anodafb-img" src="img/b pics.jpg" alt="" /> 2 mutual
+          friends
+        </p>
+        <button class="fb-btn">Add Friend</button>
+      </div>
+    </div>
+    <div class="fb2-one">
+      <div class="fb2-two">
+        <img class="fb2-img" src="img/coffe table" alt="" />
+      </div>
+      <div class="fb2-three">
+        Nkay
+        <p class="fb2-p">
+          <img class="anodafb2-img" src="img/b pics.jpg" alt="" /> 2 mutual
+          friends
+        </p>
+        <button class="fb2-btn">Add Friend</button>
+      </div>
+    </div>
+    <div class="fb3-one">
+      <div class="fb3-two">
+        <img class="fb3-img" src="img/ep7.jpg" alt="" />
+      </div>
+      <div class="fb3-three">
+        Favour
+        <p class="fb3-p">
+          <img class="anodafb3-img" src="img/b pics.jpg" alt="" /> 2 mutual
+          friends
+        </p>
+        <button class="fb3-btn">Add Friend</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .yellowbutton {
+        background-color: yellow;
+      }
+      .orangebutton {
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Adults Plain Cotton T-shirt</p>
+    <p>Price: $7.99</p>
+    <button class="yellowbutton" onclick="alert(`Added`)">Add to cart</button>
+    <button class="orangebutton" onclick="alert(`Purchased`)">Buy now</button>
+    <script>
+      function buttons(params) {
+        console.log(`Loading....`);
+      }
+      let orange = document.querySelector(".orangebutton");
+      orange.addEventListener("click", buttons);
+    </script>
+  </body>
+</html>

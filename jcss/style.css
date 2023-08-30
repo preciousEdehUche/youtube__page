@@ -1,0 +1,83 @@
+body {
+  /* background-image: url("/img/b\ pics.jpg"); */
+  /* background-repeat: no-repeat; */
+  background-color: #e8e8e8;
+}
+#water {
+  background-color: #00ff00;
+  border-left-color: #000000;
+  border-style: solid;
+  border-width: 0px 0px 0px 10px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 60px;
+  opacity: 70%;
+  border-radius: 0.6em;
+}
+#header {
+  background-color: #ffff00;
+}
+.bottle {
+  margin: 30px;
+  background-color: #ffff00;
+  border-color: #ff0000;
+  border-style: solid;
+  border-width: 0px 0px 10px 10px;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-size: 70px;
+  opacity: 70%;
+  border-radius: 0.9em 0.9em 0em 0em;
+}
+#card > a {
+  margin-right: 40px;
+}
+#card {
+  background-color: #ffffff;
+  border-style: solid;
+  border-left-color: #00ae00;
+  text-decoration-color: #0000ff;
+  border-width: 0px 0px 0px 5px;
+  margin: 2px;
+  padding: 11px;
+  /* outline-style: groove; */
+  /* outline-color: yellow; */
+  /* text-align: justify; */
+  /* text-align-last: right; */
+  /* direction: ltr; */
+  /* text-decoration-line:underline; */
+  /* text-decoration-colo; */
+  text-transform: capitalize;
+  /* line-height: 25px; */
+  /* white-space: pre-wrap; */
+  /* text-shadow: 1px 1px red; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+  color: #e0aa3e;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #000000;
+  color: #e0aa3e;
+  /* font-size: 90px; */
+  /* text-decoration: underline; */
+  padding: 15px;
+  margin: 5px;
+  /* display: ; */
+}
+li {
+  /* list-style-type: ; */
+}
+button {
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: inset;
+  font-size: 50px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #0000ff;
+  color: #ffffff;
+}
